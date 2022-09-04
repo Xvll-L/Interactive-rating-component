@@ -52,10 +52,10 @@ body{
 .content_1_text{
     width: 20rem;
     height: 200px;
-    outline: 1px red solid;
+    outline: 0px red solid;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    
 }
 .content_1_text h1{
     font-weight: 900;
@@ -68,17 +68,17 @@ body{
 
 
 .star{
-   outline: 0px solid blue;
-   border-radius: 50%;
-   align-self: flex-start;
-   background-color: var(--Light-Grey);
-    
-   margin-top: 2rem;
+    outline: 0px solid blue;
+    border-radius: 50%;
+    align-self: flex-start;
+    background-color: var(--Light-Grey);
+    margin-top: 20px;
+    margin-left: 5px;
    
 }
 
 .star img{
-    height: 2rem;
+    height: 1rem;
     padding: 10px;
 }
 
@@ -92,8 +92,9 @@ body{
 
 .btns{
     color:white;
-    background-color: hsl(217, 12%, 63%);
-    opacity: 0.2;
+    background-color: var(--Light-Grey);
+    opacity: 0.3;
+    
     border: none;
     border-radius: 50%;
     padding: 1rem;
@@ -101,7 +102,7 @@ body{
 }
 
 .btn-sub{
-    margin-top: 5%;
+    margin-top: 7%;
     padding: 10px 40%;
     background-color:  hsl(25, 97%, 53%);
     color: white;
