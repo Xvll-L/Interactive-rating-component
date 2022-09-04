@@ -5,6 +5,7 @@
 --Medium-Grey: hsl(216, 12%, 54%);
 --Dark-Blue: hsl(213, 19%, 18%);
 --Very-Dark-Blue: hsl(216, 12%, 8%);
+--red: hsl(0, 100%, 50%);
 }
 
 
@@ -28,11 +29,11 @@ body{
 }
 
 .card{
-    height: 480px;
-    width: 480px;
+    height: 460px;
+    width: 400px;
     outline: 1px solid red;
-    background-image: linear-gradient(var(--Dark-Blue) 80%, var(--Very-Dark-Blue)) ;
-    border-radius: 8px;
+    background-color: var(--Dark-Blue) ;
+    border-radius: 20px;
     display: grid;
     place-items: center;
 }
@@ -40,7 +41,7 @@ body{
 .content__1{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
     flex-direction: column;
     color: white;
     outline: 1px solid green;
@@ -57,19 +58,21 @@ body{
     justify-content: space-evenly;
 }
 .content_1_text h1{
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .content_1_text p{
     font-weight: 400;
+    font-size: 15px;
 }
 
 
 .star{
    outline: 0px solid blue;
    border-radius: 50%;
-   
-   background-color: var(--Very-Dark-Blue);
+   align-self: flex-start;
+   background-color: var(--Light-Grey);
+    
    margin-top: 2rem;
    
 }
@@ -79,4 +82,30 @@ body{
     padding: 10px;
 }
 
+.btn {
+    outline: 0px solid red;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.btns{
+    color:white;
+    background-color: hsl(217, 12%, 63%);
+    opacity: 0.2;
+    border: none;
+    border-radius: 50%;
+    padding: 1rem;
+    
+}
+
+.btn-sub{
+    margin-top: 5%;
+    padding: 10px 40%;
+    background-color:  hsl(25, 97%, 53%);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
 
